@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> My Personal </title>
+</head>
+<body>
+    <div class="container">
+
+      <div class="sidebar sidebarGo">
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">My Info</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+
+      <div class="ham">
+        <img src="ham.png" alt="" class="dot" width="32px">
+        <img src="cros.png" style ="display: none" id="riyad" width="32px">
+    </div>
+    
+      <div class="contactForm">
+
+        <h1>Contact for work/General Enquiries</h1>
+        <form>
+            <div class="mb-3">
+              <label for="clientName" class="form-label">Name</label>
+              <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp" placeholder="Enter your Name">
+              
+            </div>
+            <div class="mb-3">
+              <label for="clientmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp" placeholder="abcdefg@gmail.com">
+              <div id="emailHelp" class="form-text">We'll never share your email & Phone with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="clientphone" class="form-label">Phone</label>
+              <input type="number" class="form-control" id="clientphone" placeholder="017########">
+            </div>
+            <div class="mb-3">
+              <label for="clientEnquiry" class="form-label">Enquiry</label>
+              <textarea class="form-control" id="clientComment" placeholder="How can we help you ?"></textarea>
+            </div>
+            <div class="mb-3 form-check" id="form_check">
+              <input type="checkbox" class="checkbox" id="isClient">
+              <label class="form-check-label checkbox" for="isClient">I want you to work on a project with me</label>
+            </div>
+            
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </form>
+
+      </div>
+    </div>
+
+
+</div>
+
+    <script src="personal.js"></script>
+</body>
+</html>
